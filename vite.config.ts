@@ -8,4 +8,7 @@ export default defineConfig({
       'react-native': 'react-native-web',
     },
   },
+  build: {
+    sourcemap: true, // Enable source maps
+  },
 });
